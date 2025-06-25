@@ -63,6 +63,39 @@ Jika Anda lebih suka meng-host server Colanode sendiri, cukup gunakan file Docke
 
 Semua variabel lingkungan yang diperlukan untuk server Colanode dapat ditemukan di file docker-compose.
 
+## Instalasi Lokal
+
+Ikuti langkah berikut untuk menyiapkan Colanode di mesin Anda sendiri:
+
+1. **Persyaratan:** pastikan **Node.js** (disarankan versi 20 atau lebih baru) dan **npm** sudah terpasang.
+2. **Klon dan instal dependensi**
+   ```bash
+   git clone https://github.com/colanode/colanode.git
+   cd colanode
+   npm install
+   ```
+3. **Jalankan layanan pendukung** menggunakan Docker Compose untuk memulai Postgres, Redis, Minio, serta server Colanode.
+   ```bash
+   docker compose up -d
+   ```
+   Setelah semua container aktif, buka `http://localhost:4000` untuk mengakses aplikasi web.
+
+### Pengaturan Database
+
+Colanode menggunakan **PostgreSQL** dengan ekstensi **pgvector**. Contoh konfigurasi terdapat pada `docker-compose.yaml` di variabel `POSTGRES_URL`:
+
+```yaml
+POSTGRES_URL: 'postgres://colanode_user:postgrespass123@postgres:5432/colanode_db'
+```
+
+Jika Anda ingin memakai instance PostgreSQL sendiri, pastikan ekstensi `pgvector` telah terinstall dan sesuaikan `POSTGRES_URL` dengan format:
+
+```
+postgres://<user>:<password>@<host>:<port>/<nama_database>
+```
+
+Setelah mengubah variabel tersebut, jalankan kembali `docker compose up -d` agar server terhubung ke database pilihan Anda.
+
 ## Lisensi
 
 Colanode dirilis di bawah [Lisensi Apache 2.0](LICENSE).
