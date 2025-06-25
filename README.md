@@ -99,3 +99,28 @@ Setelah mengubah variabel tersebut, jalankan kembali `docker compose up -d` agar
 ## Lisensi
 
 Colanode dirilis di bawah [Lisensi Apache 2.0](LICENSE).
+
+Lisensi Apache 2.0 adalah lisensi perangkat lunak open-source yang sangat permisif. Anda boleh melakukan hampir apa saja terhadap kode sumber—termasuk mengedit, menggandakan, menyebarluaskan, bahkan menjual ulang—selama mematuhi beberapa syarat berikut.
+
+### ✅ Hal yang boleh Anda lakukan di bawah Lisensi Apache 2.0:
+1. **Mengedit atau memodifikasi kode sumber** sesuai kebutuhan Anda.
+2. **Menggabungkan dengan proyek lain** (baik open-source maupun komersial).
+3. **Menggunakan secara pribadi maupun dalam organisasi/perusahaan.**
+4. **Mendistribusikan ulang** versi asli atau versi modifikasi.
+5. **Menjual layanan berbasis Colanode**, asalkan mematuhi syarat lisensi.
+
+### 📌 Ketentuan yang harus dipatuhi:
+1. **Cantumkan pemberitahuan hak cipta (copyright notice)** dari pembuat asli.
+2. **Sertakan salinan lisensi Apache 2.0** di dalam distribusi Anda.
+3. Jika Anda **memodifikasi kode**, cantumkan bahwa Anda telah melakukannya (misalnya menulis: "modified by [nama Anda]" di README atau kode).
+4. **Tidak boleh menggunakan nama, merek, atau logo resmi Colanode** untuk memasarkan versi Anda tanpa izin (larangan penggunaan merek dagang).
+
+### Contoh Sederhana
+Misalnya Anda mengunduh kode sumber Colanode dari GitHub, lalu:
+* Menyesuaikannya agar tampilannya berbahasa Indonesia
+* Menambahkan fitur baru (misalnya enkripsi tambahan atau tema gelap)
+* Mengemas ulang jadi aplikasi dengan nama "KolabNusantara"
+
+➡️ Anda **boleh melakukannya**, bahkan membagikan atau menjual hasil modifikasi Anda, **asal tetap mencantumkan bahwa proyek tersebut berdasarkan Colanode dan menyertakan lisensi aslinya.**
+
+Jika Anda butuh template legal (misalnya README dengan catatan perubahan) atau panduan menyusun versi modifikasi yang legal, kami siap membantu.
