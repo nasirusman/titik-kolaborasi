@@ -122,5 +122,3 @@ Misalnya Anda mengunduh kode sumber Colanode dari GitHub, lalu:
 * Mengemas ulang jadi aplikasi dengan nama "KolabNusantara"
 
 ➡️ Anda **boleh melakukannya**, bahkan membagikan atau menjual hasil modifikasi Anda, **asal tetap mencantumkan bahwa proyek tersebut berdasarkan Colanode dan menyertakan lisensi aslinya.**
-
-Jika Anda butuh template legal (misalnya README dengan catatan perubahan) atau panduan menyusun versi modifikasi yang legal, kami siap membantu.
