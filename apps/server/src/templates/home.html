@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Colanode Server</title>
+    <title>Server Colanode</title>
     <style>
       body {
         margin: 0;
@@ -163,17 +163,17 @@
   <body>
     <div class="container">
       <h1 class="server-name">{{name}}</h1>
-      <p class="welcome-text">Welcome to your Colanode server</p>
-      <p class="server-description">To sign in:</p>
+      <p class="welcome-text">Selamat datang di server Colanode Anda</p>
+      <p class="server-description">Untuk masuk:</p>
       <ol class="server-steps">
-        <li>Copy the link below</li>
+        <li>Salin tautan di bawah ini</li>
         <li>
-          In the Colanode app (web or desktop), tap the Server dropdown on the
-          login screen and choose 'Add server'
+          Pada aplikasi Colanode (web atau desktop), ketuk menu Server di layar
+          login dan pilih 'Tambah server'
         </li>
-        <li>Paste the link, save, and continue to log in</li>
+        <li>Tempel tautan tersebut, simpan, dan lanjutkan untuk masuk</li>
       </ol>
-      <p class="server-description">Now you can start using Colanode.</p>
+      <p class="server-description">Sekarang Anda dapat mulai menggunakan Colanode.</p>
       <div>
         <div class="copy-container">
           <input
@@ -186,7 +186,7 @@
           <button
             class="copy-button"
             onclick="copyToClipboard()"
-            title="Copy to clipboard"
+            title="Salin ke clipboard"
           >
             <svg
               width="16"
@@ -214,7 +214,7 @@
       <footer class="footer">
         <div class="footer-info">
           <div class="footer-item">
-            <span class="footer-label">Version</span>
+            <span class="footer-label">Versi</span>
             <span class="footer-value">{{version}}</span>
           </div>
           <div class="footer-item">
@@ -222,7 +222,7 @@
             <span class="footer-value">{{sha}}</span>
           </div>
           <div class="footer-item">
-            <span class="footer-label">Source</span>
+            <span class="footer-label">Sumber</span>
             <a
               href="https://github.com/colanode/colanode"
               target="_blank"
@@ -234,7 +234,7 @@
         </div>
       </footer>
     </div>
-    <div class="copy-success" id="copySuccess">Copied to clipboard</div>
+    <div class="copy-success" id="copySuccess">Disalin ke clipboard</div>
 
     <script>
       function copyToClipboard() {
